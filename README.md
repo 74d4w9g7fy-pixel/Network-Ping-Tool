@@ -4,6 +4,8 @@ Ein eigenständiges Excel-VBA-Tool zum schnellen Pingen von Geräten in industri
 
 Entstanden ist das Tool, weil das manuelle Anpingen einzelner Geräte über das CMD-Fenster auf Dauer zu lange dauert und umständlich ist – gerade wenn mehrere Geräte im Netzwerk geprüft werden müssen.
 
+![Screenshot des Network Ping Tools](Screenshot-Netzwerk-Ping-Tool.jpg)
+
 ## Funktionen
 
 - Schnelles ICMP-Ping direkt über die Windows-API (`iphlpapi.dll`) – keine externen Programme nötig
@@ -23,6 +25,17 @@ Entstanden ist das Tool, weil das manuelle Anpingen einzelner Geräte über das 
 1. Die Datei `NetworkPingTool.xlsm` herunterladen.
 2. Beim Öffnen Makros aktivieren (Sicherheitswarnung von Excel bestätigen).
 3. Los geht's – keine weitere Installation oder Zusatzsoftware nötig.
+
+### Datei ist blockiert / Makros lassen sich nicht aktivieren
+
+Da die Datei aus dem Internet heruntergeladen wird, markiert Windows sie automatisch als "nicht vertrauenswürdig". Excel blockiert dann alle Makros mit einer Meldung wie *"Makros wurden blockiert, weil die Quelle nicht vertrauenswürdig ist"* bzw. *"potenziell gefährlich"*. Das betrifft **jede** heruntergeladene Excel-Datei mit Makros und ist keine Besonderheit dieses Tools.
+
+So hebst du die Blockierung auf:
+
+1. Die heruntergeladene Datei im Explorer mit Rechtsklick auswählen → **Eigenschaften**.
+2. Im Reiter **Allgemein** ganz unten die Checkbox **„Zulassen"** (bzw. **„Blockierung aufheben"**) aktivieren.
+3. Mit **Übernehmen** → **OK** bestätigen.
+4. Datei öffnen – die Makros lassen sich jetzt normal aktivieren.
 
 ## Verwendung
 
