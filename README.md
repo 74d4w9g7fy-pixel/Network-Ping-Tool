@@ -4,7 +4,7 @@ Ein eigenständiges Excel-VBA-Tool zum schnellen Pingen von Geräten in industri
 
 Entstanden ist das Tool, weil das manuelle Anpingen einzelner Geräte über das CMD-Fenster auf Dauer zu lange dauert und umständlich ist – gerade wenn mehrere Geräte im Netzwerk geprüft werden müssen.
 
-![Screenshot des Network Ping Tools](Screenshot-Netzwerk-Ping-Tool.jpg)
+![Screenshot des Network Ping Tools](Screenshot-Network-Ping-Tool.jpg)
 
 ## Funktionen
 
