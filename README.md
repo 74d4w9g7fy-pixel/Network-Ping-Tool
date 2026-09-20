@@ -37,6 +37,10 @@ So hebst du die Blockierung auf:
 3. Mit **Übernehmen** → **OK** bestätigen.
 4. Datei öffnen – die Makros lassen sich jetzt normal aktivieren.
 
+### Quellcode einsehen
+
+Falls du dem Makro nicht blind vertrauen möchtest (völlig verständlich): Der komplette VBA-Code liegt zusätzlich als reine Textdatei bei – [`quellcode.bas`](quellcode.bas). So kannst du den Code einsehen, bevor du die Makro-Blockierung aufhebst oder das Makro aktivierst.
+
 ## Verwendung
 
 1. Datei öffnen.
